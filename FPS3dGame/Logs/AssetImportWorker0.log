@@ -1,0 +1,269 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.2486; Version 2009; 64bit' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58966
+Successfully changed project path to: C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 18.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001215 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.578 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.549 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 1.378700 ms (FindLiveObjects: 0.104600 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.171200 ms  DeleteObjects: 0.075600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Futuristic_soldier/Prefabs
+  artifactKey: Guid(360177522d65c914baee0b377d3065e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs using Guid(360177522d65c914baee0b377d3065e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3412666c45f60d7d37667ed642fe8ba5') in 0.006844 seconds
+  Import took 0.008537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.918031 seconds.
+  path: Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_blue Variant.prefab
+  artifactKey: Guid(2b28d1f63ff60bb47a5faa362eed35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_blue Variant.prefab using Guid(2b28d1f63ff60bb47a5faa362eed35a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600e2265976f4e82d9cfb9df4d3fe9b6') in 0.353137 seconds
+  Import took 0.357802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab
+  artifactKey: Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_green Variant.prefab using Guid(e77d76eda990d754094a01553d298620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c057f77ab4f201f09cfb630dff9c58') in 0.071064 seconds
+  Import took 0.075870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_red Variant.prefab
+  artifactKey: Guid(156d19f5e1b4b53469340ce62b82f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Prefabs/Sci-fi_character_unity_red Variant.prefab using Guid(156d19f5e1b4b53469340ce62b82f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead49a89f1aec399e88f224af8432a24') in 0.051297 seconds
+  Import took 0.056034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.035938 seconds.
+  path: Assets/Futuristic_soldier/Mesh/Futuristic_soldier.fbx
+  artifactKey: Guid(8cf152a0a06b3dc47a7c6d40918d95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Mesh/Futuristic_soldier.fbx using Guid(8cf152a0a06b3dc47a7c6d40918d95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315b45fac2bd15a10e9df9b8b09e40e5') in 0.138178 seconds
+  Import took 0.142835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.191602 seconds.
+  path: Assets/Futuristic_soldier/Materials/Futuristic_soldier_Blue.mat
+  artifactKey: Guid(5686492093226bb49b0b18e9832208bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Materials/Futuristic_soldier_Blue.mat using Guid(5686492093226bb49b0b18e9832208bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8443b7c096645de094060002c570e02') in 0.061273 seconds
+  Import took 0.066185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Futuristic_soldier/Materials/Futuristic_soldier_Red.mat
+  artifactKey: Guid(0d3796d0bd5d6224e9bf728d77aa5db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Materials/Futuristic_soldier_Red.mat using Guid(0d3796d0bd5d6224e9bf728d77aa5db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7785aad89a2b8ef04833af010dcdc4e8') in 0.056649 seconds
+  Import took 0.061159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Futuristic_soldier/Materials/Futuristic_soldier_Green.mat
+  artifactKey: Guid(f3a38759bf7d46244a94938d8387ad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Futuristic_soldier/Materials/Futuristic_soldier_Green.mat using Guid(f3a38759bf7d46244a94938d8387ad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e936333487581253d000b4f57dec334') in 0.051697 seconds
+  Import took 0.055693 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.267200 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.071200 ms  DeleteObjects: 0.043100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 503.143537 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music
+  artifactKey: Guid(f00625700de18cc4d83d3b3b6231985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music using Guid(f00625700de18cc4d83d3b3b6231985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be83d5752497c078ab839b07058f42b5') in 0.007671 seconds
+  Import took 0.010687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090333 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1 (Loop).wav
+  artifactKey: Guid(9460a26f83a88474eba3e8ace366521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1 (Loop).wav using Guid(9460a26f83a88474eba3e8ace366521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e7d06377ef2b2e46bdfc9308cfee1b') in 0.081116 seconds
+  Import took 0.084501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 3 (Loop).wav
+  artifactKey: Guid(f5e578b4b4d36964d928c6d0913fdeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 3 (Loop).wav using Guid(f5e578b4b4d36964d928c6d0913fdeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682a433b0c888920baa4c92b35caa302') in 0.009830 seconds
+  Import took 0.012706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 4.wav
+  artifactKey: Guid(a78116af329d3b6458d949c4bc3e97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 4.wav using Guid(a78116af329d3b6458d949c4bc3e97a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482175729908dd5a8e7eb8954cd3c0e4') in 0.009090 seconds
+  Import took 0.011985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 2 (Loop).wav
+  artifactKey: Guid(f049dad4486bc4447850a56a12cb3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 2 (Loop).wav using Guid(f049dad4486bc4447850a56a12cb3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a4da0c9694bd37d0cf95a185f1bf5') in 0.009535 seconds
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 5 (Loop).wav
+  artifactKey: Guid(a63a6287134b71f4e8b9295dd0cb8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 5 (Loop).wav using Guid(a63a6287134b71f4e8b9295dd0cb8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ae299b664a17c689ee2a38c209a80e') in 0.008330 seconds
+  Import took 0.011379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 3.wav
+  artifactKey: Guid(f3b7b3cd3d3101341b953aac2bac7ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 3.wav using Guid(f3b7b3cd3d3101341b953aac2bac7ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4922e7e5f6f499a262b22434287241df') in 0.008494 seconds
+  Import took 0.011363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 4 (Loop).wav
+  artifactKey: Guid(8e2f7f29bf9a55f44b442f81bcf79095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 4 (Loop).wav using Guid(8e2f7f29bf9a55f44b442f81bcf79095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67df1a1d9726afdcbb1c37066b6a332d') in 0.008366 seconds
+  Import took 0.011141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 5.wav
+  artifactKey: Guid(ddaab82160f6fff4291b2e31ade6f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 5.wav using Guid(ddaab82160f6fff4291b2e31ade6f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bf24ac05c6f06c1f1019c4ed24d6a5') in 0.009755 seconds
+  Import took 0.012888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 2.wav
+  artifactKey: Guid(67e34ca18659b0c40bfe44a2f55ef2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 2.wav using Guid(67e34ca18659b0c40bfe44a2f55ef2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dace40b3b2ec82d2e09df6ffa1fc3c') in 0.012505 seconds
+  Import took 0.015671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1.wav
+  artifactKey: Guid(4a5e1f0b31c6f3e4398258406076a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1.wav using Guid(4a5e1f0b31c6f3e4398258406076a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e434bfee488e54a0dd803d5c169188ae') in 0.009099 seconds
+  Import took 0.012872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003114 seconds.
+  path: Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1.wav
+  artifactKey: Guid(4a5e1f0b31c6f3e4398258406076a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Game Music Collection/Sci-Fi Music/Free Sci-Fi Track 1.wav using Guid(4a5e1f0b31c6f3e4398258406076a53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e434bfee488e54a0dd803d5c169188ae') in 0.011412 seconds
+  Import took 0.015008 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.495 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 1.358100 ms (FindLiveObjects: 0.104400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.175400 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
