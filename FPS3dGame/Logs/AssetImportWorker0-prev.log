@@ -1,0 +1,801 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.2486; Version 2009; 64bit' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50764
+Successfully changed project path to: C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wjays/OneDrive/Documents/Dungeun-crawler/FPS3dGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001277 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 1.297200 ms (FindLiveObjects: 0.102300 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.099900 ms  DeleteObjects: 0.064200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(667eadbc3a54ee54cbcd7e9adb439980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(667eadbc3a54ee54cbcd7e9adb439980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de444953fe2b66174771d35cfa69d896') in 0.076040 seconds
+  Import took 0.079552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.629161 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs
+  artifactKey: Guid(17a076b2157704b1e9eb826bd5007476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs using Guid(17a076b2157704b1e9eb826bd5007476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddd279c83d4c95e9bf102a0293fdaff') in 0.007040 seconds
+  Import took 0.010036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065494 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Aim_01.prefab
+  artifactKey: Guid(f853a12283490445995737ad2c661535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Aim_01.prefab using Guid(f853a12283490445995737ad2c661535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fc78ee75ce66697e64d04bd1ea6d88') in 0.023392 seconds
+  Import took 0.026834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Aim_03.prefab
+  artifactKey: Guid(a81d80961764b4a99924b43fdbab1831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Aim_03.prefab using Guid(a81d80961764b4a99924b43fdbab1831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d4b4e4fd1c6b98575116600c3e2e4e') in 0.015171 seconds
+  Import took 0.018459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Back_Part_04.prefab
+  artifactKey: Guid(b15dc8f0aae3c4a0c8d590c6620cb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Back_Part_04.prefab using Guid(b15dc8f0aae3c4a0c8d590c6620cb3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c6ff76a538e28ea8cdfd587d1d8310') in 0.018687 seconds
+  Import took 0.022202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_04.prefab
+  artifactKey: Guid(6651b2127c86b44a2898a8b3a34db081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_04.prefab using Guid(6651b2127c86b44a2898a8b3a34db081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0711a67e58691ce099a83749468a53db') in 0.018564 seconds
+  Import took 0.021983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_01.prefab
+  artifactKey: Guid(1652bbb45886c43e8a97ceded634e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_01.prefab using Guid(1652bbb45886c43e8a97ceded634e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76af8cfd17c2637dc55aa00e581c2708') in 0.014363 seconds
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Handle_01.prefab
+  artifactKey: Guid(7ac002f469caa48fea5e57945c2dab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Handle_01.prefab using Guid(7ac002f469caa48fea5e57945c2dab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844223333416b0db100406488fb25544') in 0.021660 seconds
+  Import took 0.025070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 4.prefab
+  artifactKey: Guid(7921b347b42c843189617fa25478ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 4.prefab using Guid(7921b347b42c843189617fa25478ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91595fa00acdbe8476254ff3cbc099') in 0.049327 seconds
+  Import took 0.052757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Top_Part_04.prefab
+  artifactKey: Guid(ece60f2f8818a48b4bd145e851d1170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Top_Part_04.prefab using Guid(ece60f2f8818a48b4bd145e851d1170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6b51d96884b1240a8d3194d84609a3') in 0.014051 seconds
+  Import took 0.017981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 6.prefab
+  artifactKey: Guid(894b98a4209804fc48c623f74328706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 6.prefab using Guid(894b98a4209804fc48c623f74328706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f276547b96d1029fe65ca1f242d209') in 0.029332 seconds
+  Import took 0.032953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Muzzle_02.prefab
+  artifactKey: Guid(a7bb94b15a12c402ebf0b3f0b91325e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Muzzle_02.prefab using Guid(a7bb94b15a12c402ebf0b3f0b91325e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc371c8271c59347a3227909c601202c') in 0.012576 seconds
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Muzzle_03.prefab
+  artifactKey: Guid(594ef7acfcb6541d29177551738727bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Muzzle_03.prefab using Guid(594ef7acfcb6541d29177551738727bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494c3d2db3e3fbea7013c7744095e48e') in 0.011093 seconds
+  Import took 0.014635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Back_Part_02.prefab
+  artifactKey: Guid(4cabac02c5d4b45c2bca8fdb4fccda49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Back_Part_02.prefab using Guid(4cabac02c5d4b45c2bca8fdb4fccda49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5e4fd2cdbbfb6c9355fb06f035d1a1') in 0.014170 seconds
+  Import took 0.017715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Middle_Part_02.prefab
+  artifactKey: Guid(af58e7bdef2f84d27ab25b7da1685e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Middle_Part_02.prefab using Guid(af58e7bdef2f84d27ab25b7da1685e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613312a6fe8213d41a6df15a1ba1b387') in 0.015313 seconds
+  Import took 0.019193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Top_Part_03.prefab
+  artifactKey: Guid(d8543a260ef844ae5b1670974bb27c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Top_Part_03.prefab using Guid(d8543a260ef844ae5b1670974bb27c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba38e50315cfdd86e30273e67b30780b') in 0.010965 seconds
+  Import took 0.014700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Aim_04.prefab
+  artifactKey: Guid(e7de9df34523a4d82b92016b560b4ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Aim_04.prefab using Guid(e7de9df34523a4d82b92016b560b4ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfe0263a89012f54f2aa821e51c57b4') in 0.016804 seconds
+  Import took 0.020056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Muzzle_04.prefab
+  artifactKey: Guid(dc4325c793bd740aab31b04f7fe11287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Muzzle_04.prefab using Guid(dc4325c793bd740aab31b04f7fe11287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4754a3940c3c2e9f2bb72831156cd30') in 0.015569 seconds
+  Import took 0.019429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Middle_Part_03.prefab
+  artifactKey: Guid(b94c9ae63226249be93144cf3e68996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Middle_Part_03.prefab using Guid(b94c9ae63226249be93144cf3e68996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec3a4c7917bdae9b447fb7228b9aa01') in 0.014867 seconds
+  Import took 0.018209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Middle_Part_01.prefab
+  artifactKey: Guid(ba5bd9cc6d29741f9a5b17e8c6d62d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Middle_Part_01.prefab using Guid(ba5bd9cc6d29741f9a5b17e8c6d62d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c91a732accbcbb266fd9407b014046e') in 0.012561 seconds
+  Import took 0.016102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 10.prefab
+  artifactKey: Guid(334090f41fcc64272b664e23faebb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 10.prefab using Guid(334090f41fcc64272b664e23faebb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff96ec27f4580940e657362e084e55c7') in 0.027145 seconds
+  Import took 0.030683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Middle_Part_04.prefab
+  artifactKey: Guid(92e674a2b30d4491888a000892b6cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Middle_Part_04.prefab using Guid(92e674a2b30d4491888a000892b6cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff420c555a02ccd3702428d68d3080b') in 0.022138 seconds
+  Import took 0.025245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Back_Part_03.prefab
+  artifactKey: Guid(d53c93eb6d01d433c97f2ac465a75753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Back_Part_03.prefab using Guid(d53c93eb6d01d433c97f2ac465a75753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c902d08dc2735a0f8eb2f6bd96043efe') in 0.011756 seconds
+  Import took 0.015266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_03.prefab
+  artifactKey: Guid(dee1f3adb32ea46d18514d2c7973e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_03.prefab using Guid(dee1f3adb32ea46d18514d2c7973e476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c425ba617d7b3eda01c8ae197a99bb') in 0.012259 seconds
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 8.prefab
+  artifactKey: Guid(36e8daa71a371455e8c832bee5e481b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 8.prefab using Guid(36e8daa71a371455e8c832bee5e481b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa415621bdc4062ad85a5dcf663b420') in 0.024119 seconds
+  Import took 0.028267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 3.prefab
+  artifactKey: Guid(867bf8545bcce47ffa51745a60d3f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 3.prefab using Guid(867bf8545bcce47ffa51745a60d3f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1436d524d85d384c19d0dbb89736a92') in 0.016067 seconds
+  Import took 0.019623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Muzzle_01.prefab
+  artifactKey: Guid(44f4a0090a5d8431eb667ee872f1927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Muzzle_01.prefab using Guid(44f4a0090a5d8431eb667ee872f1927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4583ba6be6a6bca1349c25accb0d01') in 0.013834 seconds
+  Import took 0.017403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 11.prefab
+  artifactKey: Guid(a33db90465df4442db6195e94c93486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 11.prefab using Guid(a33db90465df4442db6195e94c93486e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb3fb8e18ff6c62cba8cade118cbf2f') in 0.013165 seconds
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 7.prefab
+  artifactKey: Guid(21afdd210311d4a3096a424297c665ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 7.prefab using Guid(21afdd210311d4a3096a424297c665ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db48faddfc488ed130e73c33863829af') in 0.015731 seconds
+  Import took 0.019431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 9.prefab
+  artifactKey: Guid(c84aefb27d8a5443c84fdc4cd7f97f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 9.prefab using Guid(c84aefb27d8a5443c84fdc4cd7f97f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ceaeb6cd39651c3c39460949aa6dcb') in 0.016948 seconds
+  Import took 0.020544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Back_Part_01.prefab
+  artifactKey: Guid(0a2819783e24b44d0962a93a1cd883c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Back_Part_01.prefab using Guid(0a2819783e24b44d0962a93a1cd883c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018742c4365fa2ef352aaa9cf6fb7be2') in 0.009532 seconds
+  Import took 0.012985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example.prefab
+  artifactKey: Guid(d578b1ceee0904847a0d841e1b51c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example.prefab using Guid(d578b1ceee0904847a0d841e1b51c9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845d99f8dbeb4301c45e586af670323c') in 0.013089 seconds
+  Import took 0.016750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Handle_02.prefab
+  artifactKey: Guid(68291d3c6c8774f3d9b34018e84cf140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Handle_02.prefab using Guid(68291d3c6c8774f3d9b34018e84cf140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2654e04b96bf1c9c73af9486a4bc6e4b') in 0.010984 seconds
+  Import took 0.014206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_02.prefab
+  artifactKey: Guid(41b88f60823a04fa4a495cef888968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Bottom_Part_02.prefab using Guid(41b88f60823a04fa4a495cef888968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d65e7a014adc5c3f565722faf5adc69') in 0.015171 seconds
+  Import took 0.019033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Top_Part_01.prefab
+  artifactKey: Guid(fb5540d580512442f9def2f7eefc4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Top_Part_01.prefab using Guid(fb5540d580512442f9def2f7eefc4609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750fc0b7379b01ec021162202585ac09') in 0.016120 seconds
+  Import took 0.019081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Top_Part_02.prefab
+  artifactKey: Guid(be33420f45e16452aa0872bf42217fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Top_Part_02.prefab using Guid(be33420f45e16452aa0872bf42217fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7504d0549dfe7818e275ecb03f4dfa') in 0.009842 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Aim_02.prefab
+  artifactKey: Guid(9fe5f5405afe24210a07d34d5dbdae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Aim_02.prefab using Guid(9fe5f5405afe24210a07d34d5dbdae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0939a211eea052e4fb01cba16a70e34b') in 0.011685 seconds
+  Import took 0.013986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 1.prefab
+  artifactKey: Guid(32cc06541c3334f5dac5152f64ca6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 1.prefab using Guid(32cc06541c3334f5dac5152f64ca6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb96cb2eccbde20c45f1a1d0a761c470') in 0.013468 seconds
+  Import took 0.016097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 2.prefab
+  artifactKey: Guid(5d75970e8449c44d2882c40eb0122bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 2.prefab using Guid(5d75970e8449c44d2882c40eb0122bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a976c7bf9646f81c8fa9048d829596ab') in 0.016769 seconds
+  Import took 0.019664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 5.prefab
+  artifactKey: Guid(fb2bbd663863548eb91fdbe504fdf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Prefabs/Your Weapon Example 5.prefab using Guid(fb2bbd663863548eb91fdbe504fdf59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f933d7a9bf11f784906f1fdeb5b18d75') in 0.014368 seconds
+  Import took 0.018674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.913424 seconds.
+  path: Assets/Energy/Type 1/EnergyCell_1/Prefabs/EnergyCell_1_1.prefab
+  artifactKey: Guid(305be5e0fdd8efe4ba012079676d5c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 1/EnergyCell_1/Prefabs/EnergyCell_1_1.prefab using Guid(305be5e0fdd8efe4ba012079676d5c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01636e0728c3cee987ff9b8a3d83018') in 0.252755 seconds
+  Import took 0.255727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Prefab/Gate_Small.prefab
+  artifactKey: Guid(b581fdbd127292d44ab21c4b16d91d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Prefab/Gate_Small.prefab using Guid(b581fdbd127292d44ab21c4b16d91d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01533c47d44a94fc86e6a5bdad760314') in 0.060563 seconds
+  Import took 0.063320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Energy/Type 2/EnergyCell_2/Prefabs/EnergyCell_2_1.prefab
+  artifactKey: Guid(9b8eb3977e316df4a844588b024c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 2/EnergyCell_2/Prefabs/EnergyCell_2_1.prefab using Guid(9b8eb3977e316df4a844588b024c4e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8901bb28026466bd9f6d8cdaadfe4c8') in 0.219229 seconds
+  Import took 0.221833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Prefab/Sci Fi Gates.prefab
+  artifactKey: Guid(22d2c44fed4ffa743aac7afe4d993905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Prefab/Sci Fi Gates.prefab using Guid(22d2c44fed4ffa743aac7afe4d993905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccdfd21b77eb1f777afc299ae467563') in 0.024997 seconds
+  Import took 0.027679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.662555 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Aim_01.fbx
+  artifactKey: Guid(55adff1c54e6542fa9ab31bf29a611dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Aim_01.fbx using Guid(55adff1c54e6542fa9ab31bf29a611dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa98cc5ce5f0d7e62d83aa6a5aa3263') in 0.055073 seconds
+  Import took 0.057789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Middle_Part_03.fbx
+  artifactKey: Guid(0991c694ce2ec404583320c1fade75f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Middle_Part_03.fbx using Guid(0991c694ce2ec404583320c1fade75f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e71ef3a40ce81d3a2700442f581ae9') in 0.013232 seconds
+  Import took 0.015338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Aim_03.fbx
+  artifactKey: Guid(1bad708e47bef4eae84a935801be4b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Aim_03.fbx using Guid(1bad708e47bef4eae84a935801be4b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00d2cf91ed129759cf13aa03f3d300e') in 0.017178 seconds
+  Import took 0.019408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Aim_02.fbx
+  artifactKey: Guid(0d303d2be649446669a5ae90f4277683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Aim_02.fbx using Guid(0d303d2be649446669a5ae90f4277683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1e1510ac531dbfae2c55417cecb88d') in 0.012033 seconds
+  Import took 0.014353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Bottom_Part_04.fbx
+  artifactKey: Guid(6bdbeb9eaa7fb42219af700225c9ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Bottom_Part_04.fbx using Guid(6bdbeb9eaa7fb42219af700225c9ec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f754dba31f525c8ceb17c61044c06') in 0.013625 seconds
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Top_Part_01.fbx
+  artifactKey: Guid(5b930e3e7e3d446b7b8f30c136da49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Top_Part_01.fbx using Guid(5b930e3e7e3d446b7b8f30c136da49d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e8c1ee95a76d81983a1095f5f0f9b') in 0.014978 seconds
+  Import took 0.017299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Top_Part_02.fbx
+  artifactKey: Guid(2618cec881c8c4a37bc8b6e736aa2507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Top_Part_02.fbx using Guid(2618cec881c8c4a37bc8b6e736aa2507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f273c94203c82356af32e75cf057e3e3') in 0.013534 seconds
+  Import took 0.016002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Back_Part_04.fbx
+  artifactKey: Guid(e0a6557514773456b908215bd09ace5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Back_Part_04.fbx using Guid(e0a6557514773456b908215bd09ace5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c7510b7d94beffcfdba168a89588ee') in 0.015349 seconds
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Mesh/Sci Fi Gates.fbx
+  artifactKey: Guid(eca90685bd7c0e14c985891ef5c0a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Mesh/Sci Fi Gates.fbx using Guid(eca90685bd7c0e14c985891ef5c0a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97f4f79209dbc66e50af664a6851c17') in 0.038713 seconds
+  Import took 0.041666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Top_Part_04.fbx
+  artifactKey: Guid(e54e07fb941bc4637a9c0c8b8622ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Top_Part_04.fbx using Guid(e54e07fb941bc4637a9c0c8b8622ddc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958fadbde61ffb59c1701334c4c8f16d') in 0.010460 seconds
+  Import took 0.013192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Energy/Type 2/EnergyCell_2/Models/EnergyCell_2.obj
+  artifactKey: Guid(07a088acddb7c4b41babb46ac5503475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 2/EnergyCell_2/Models/EnergyCell_2.obj using Guid(07a088acddb7c4b41babb46ac5503475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a299af7727cee33b37ceba7f584cecde') in 0.035356 seconds
+  Import took 0.037709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Back_Part_03.fbx
+  artifactKey: Guid(7970a559775a24cceb9ae36cedafcb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Back_Part_03.fbx using Guid(7970a559775a24cceb9ae36cedafcb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e1d7f670fb504ff63052c32432bb5d') in 0.011290 seconds
+  Import took 0.013448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Bottom_Part_02.fbx
+  artifactKey: Guid(2534d4956d6b346338f8916d38dc671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Bottom_Part_02.fbx using Guid(2534d4956d6b346338f8916d38dc671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b7773d82164e4d9463faa4da47c853') in 0.010195 seconds
+  Import took 0.012858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Bottom_Part_03.fbx
+  artifactKey: Guid(b0be2f6b368e14fa99050597610b4973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Bottom_Part_03.fbx using Guid(b0be2f6b368e14fa99050597610b4973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828db72535aa5143e90c6724a652b560') in 0.009933 seconds
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Muzzle_01.fbx
+  artifactKey: Guid(8baacac2b3f21478eb576ded17b4a9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Muzzle_01.fbx using Guid(8baacac2b3f21478eb576ded17b4a9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348385200b61dcc8411c15c0d1da2950') in 0.009907 seconds
+  Import took 0.012390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Handle_02.fbx
+  artifactKey: Guid(48fca7a124ff34b3da5b74ae5bc39ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Handle_02.fbx using Guid(48fca7a124ff34b3da5b74ae5bc39ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70780e374e79a60853ea815bb14886c') in 0.010262 seconds
+  Import took 0.012403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Muzzle_02.fbx
+  artifactKey: Guid(ec0532867eb214704984f16a2e1a23ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Muzzle_02.fbx using Guid(ec0532867eb214704984f16a2e1a23ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf519e59a57b65989dff7a9939bca21') in 0.010939 seconds
+  Import took 0.013137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Middle_Part_01.fbx
+  artifactKey: Guid(61aedcec8b9ad4b11aa14f3be37b5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Middle_Part_01.fbx using Guid(61aedcec8b9ad4b11aa14f3be37b5937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43daef565477b86fe21535726b33bb5d') in 0.010830 seconds
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Border.fbx
+  artifactKey: Guid(0317e6ea3ff554fb6b8b1590fc3dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Border.fbx using Guid(0317e6ea3ff554fb6b8b1590fc3dc510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f1f57016dbcf136ce64d3ba79625b') in 0.014999 seconds
+  Import took 0.017257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Muzzle_04.fbx
+  artifactKey: Guid(e71482f0530e8454b879d268337bca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Muzzle_04.fbx using Guid(e71482f0530e8454b879d268337bca9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a3ff3d3b1dd1ad4c446a60d96a72fe') in 0.010004 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Handle_01.fbx
+  artifactKey: Guid(97a13085247354d8db236e16e3a22b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Handle_01.fbx using Guid(97a13085247354d8db236e16e3a22b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afd24fb0d7a735c884c12f9113a2b74') in 0.010422 seconds
+  Import took 0.012798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Aim_04.fbx
+  artifactKey: Guid(c1f6aaa0f4e484af5ad0569758a242b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Aim_04.fbx using Guid(c1f6aaa0f4e484af5ad0569758a242b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba74698e12af0fa8bc559e6cc5ac82b6') in 0.009927 seconds
+  Import took 0.012415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Middle_Part_04.fbx
+  artifactKey: Guid(2f8e2e723cf0447d7bbdc48081b00b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Middle_Part_04.fbx using Guid(2f8e2e723cf0447d7bbdc48081b00b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2beb3fb2871d7ca61f168575b7fc556') in 0.010146 seconds
+  Import took 0.012471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Bottom_Part_01.fbx
+  artifactKey: Guid(ab7b885c56aea43d4b353db1025747db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Bottom_Part_01.fbx using Guid(ab7b885c56aea43d4b353db1025747db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f78e93c7323cf4371cfb56cf972e7a') in 0.010156 seconds
+  Import took 0.012725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Middle_Part_02.fbx
+  artifactKey: Guid(8f3f02c98491d4c698b57354d763cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Middle_Part_02.fbx using Guid(8f3f02c98491d4c698b57354d763cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4375d48d1406ff32414e2382a2f86510') in 0.009786 seconds
+  Import took 0.012337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Back_Part_01.fbx
+  artifactKey: Guid(eaef9e82e1e6e4c9e87b93e19431b966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Back_Part_01.fbx using Guid(eaef9e82e1e6e4c9e87b93e19431b966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a56649743c0120c9e1afeac549bb23') in 0.010610 seconds
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Muzzle_03.fbx
+  artifactKey: Guid(d7b122e495a9c497eafc9a6c8765bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Muzzle_03.fbx using Guid(d7b122e495a9c497eafc9a6c8765bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8a8a44b40e75d523bfb5187ac90501') in 0.011193 seconds
+  Import took 0.013818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Top_Part_03.fbx
+  artifactKey: Guid(122a8e71132394bb19801a75bd7532e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Top_Part_03.fbx using Guid(122a8e71132394bb19801a75bd7532e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92abdae807a11ed16435219c4cfb7485') in 0.012209 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Stylized Modular Weapons/Geometry/Back_Part_02.fbx
+  artifactKey: Guid(cae8801a688424401b196076cebd6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Geometry/Back_Part_02.fbx using Guid(cae8801a688424401b196076cebd6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e865e64a3a5ba18def4f3bce995f30d') in 0.010185 seconds
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Energy/Type 1/EnergyCell_1/Models/EnergyCell_1_1.obj
+  artifactKey: Guid(71d6d2399f5ac134d99d1fc9efbd8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 1/EnergyCell_1/Models/EnergyCell_1_1.obj using Guid(71d6d2399f5ac134d99d1fc9efbd8208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fa5375b57c7ea010a56d2552f81c9a') in 0.014782 seconds
+  Import took 0.016887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.512715 seconds.
+  path: Assets/Energy/Type 1/EnergyCell_1/Materials/EnergyCell_1_1.mat
+  artifactKey: Guid(422735d91f6c23a48ae3930e0a515f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 1/EnergyCell_1/Materials/EnergyCell_1_1.mat using Guid(422735d91f6c23a48ae3930e0a515f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2680912283945b0caf53825d63dac0ee') in 0.031754 seconds
+  Import took 0.034647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Energy/Demo/Metal/Floor.mat
+  artifactKey: Guid(f0cf28c7712f3be48b8dfc70f1c1d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Demo/Metal/Floor.mat using Guid(f0cf28c7712f3be48b8dfc70f1c1d519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c90fc0845b1f7ecbafb425cb44689e5') in 0.325387 seconds
+  Import took 0.329510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Top_Part.mat
+  artifactKey: Guid(096801f0eb3b447f68af671c000e8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Top_Part.mat using Guid(096801f0eb3b447f68af671c000e8fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e327c1d4dcd05eeb6e84ae7613e3d465') in 0.011377 seconds
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Muzzles.mat
+  artifactKey: Guid(0a8bca9a6f77144558b2c63f68c7d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Muzzles.mat using Guid(0a8bca9a6f77144558b2c63f68c7d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565766ee2a082fbe9d930781efc77b3f') in 0.015135 seconds
+  Import took 0.017919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Aim.mat
+  artifactKey: Guid(0313bafe872ee48149167d970d82af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Aim.mat using Guid(0313bafe872ee48149167d970d82af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdbb8fa9ca56032868f6718769a352a') in 0.013761 seconds
+  Import took 0.017066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Energy/Type 2/EnergyCell_2/Materials/EnergyCell_2_Glass.mat
+  artifactKey: Guid(a41d0ac3f9837564c8461646f08e05f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 2/EnergyCell_2/Materials/EnergyCell_2_Glass.mat using Guid(a41d0ac3f9837564c8461646f08e05f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06006bf2e10402f2b93d20638f49f6c8') in 0.015774 seconds
+  Import took 0.018743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Material/Sci Fi Doors Mat.mat
+  artifactKey: Guid(7474aa6baee1fc84ea7882a1a652b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Material/Sci Fi Doors Mat.mat using Guid(7474aa6baee1fc84ea7882a1a652b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f949b449a5faa981d10e29c662e54e1e') in 0.027555 seconds
+  Import took 0.030661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Handle.mat
+  artifactKey: Guid(856c027414c6b4ea0a80f53421938bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Handle.mat using Guid(856c027414c6b4ea0a80f53421938bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71132383d2827d2e492f3cb3b74f36d0') in 0.010358 seconds
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Material/Walls.mat
+  artifactKey: Guid(3004f05b13f291c49831b57089640c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Material/Walls.mat using Guid(3004f05b13f291c49831b57089640c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e07f50f74cc25cca571a77b0a30a8ed') in 0.018250 seconds
+  Import took 0.020749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Energy/Type 2/EnergyCell_2/Materials/EnergyCell_2_1.mat
+  artifactKey: Guid(1345bb2e1f2cd2e4b895ccbf0d88dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Energy/Type 2/EnergyCell_2/Materials/EnergyCell_2_1.mat using Guid(1345bb2e1f2cd2e4b895ccbf0d88dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6089588a6daa46710ce751702ea6a98') in 0.027531 seconds
+  Import took 0.030624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/MASH Virtual/Sci Fi Doors/Material/Glow.mat
+  artifactKey: Guid(4e7a7c7b1c24c6242bc7b9b76b31f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MASH Virtual/Sci Fi Doors/Material/Glow.mat using Guid(4e7a7c7b1c24c6242bc7b9b76b31f7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a6b4f6a287e84601692c745ed63357') in 0.137025 seconds
+  Import took 0.139241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Back_Part.mat
+  artifactKey: Guid(5a9dcad4da0d44a3b9a46d967bd9d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Back_Part.mat using Guid(5a9dcad4da0d44a3b9a46d967bd9d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355cca08a42543480dc7cd21409bc393') in 0.009978 seconds
+  Import took 0.012388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Board.mat
+  artifactKey: Guid(6a0e1a50a9a4a4d4c813214752e78398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Board.mat using Guid(6a0e1a50a9a4a4d4c813214752e78398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151e7b25935801be3cf29998eed03086') in 0.015064 seconds
+  Import took 0.018425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Bottom_Part.mat
+  artifactKey: Guid(90bec095f8911449fba8a02f1d1d4f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Bottom_Part.mat using Guid(90bec095f8911449fba8a02f1d1d4f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b27f4f08a7cb10b81b5d1cffb65a718') in 0.010307 seconds
+  Import took 0.012874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Stylized Modular Weapons/Materials/SMW_Middle_Part.mat
+  artifactKey: Guid(9fe7fb7cf19a942aab3d695c6fe91577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Modular Weapons/Materials/SMW_Middle_Part.mat using Guid(9fe7fb7cf19a942aab3d695c6fe91577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16f63d2df95c6b0ea4ebc3a5351c6c') in 0.015237 seconds
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 71.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 1.339400 ms (FindLiveObjects: 0.111500 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.148500 ms  DeleteObjects: 0.044400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
