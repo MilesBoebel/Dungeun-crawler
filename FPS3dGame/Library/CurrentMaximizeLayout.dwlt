@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 874
+  controlID: 935
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 828
+  controlID: 889
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 793
+  controlID: 839
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4efbffffc23c0000
+      m_ExpandedIDs: 4efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.399974, y: -4.0212507, z: -0.74609995}
+    m_Target: {x: -4.6629686, y: -2.8011796, z: -0.6688132}
     speed: 2
-    m_Value: {x: -13.399974, y: -4.0212507, z: -0.74609995}
+    m_Value: {x: -4.6629686, y: -2.8011796, z: -0.6688132}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -357,13 +357,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09597248, y: 0.7776751, z: -0.12259064, w: -0.6092304}
+    m_Target: {x: -0.06133019, y: 0.8364512, z: -0.09618406, w: -0.5362105}
     speed: 2
-    m_Value: {x: -0.09596387, y: 0.77760535, z: -0.12257965, w: -0.6091758}
+    m_Value: {x: -0.06132452, y: 0.8363738, z: -0.096175164, w: -0.5361609}
   m_Size:
-    m_Target: 8.252118
+    m_Target: 8.736558
     speed: 2
-    m_Value: 8.252118
+    m_Value: 8.736558
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -622,8 +622,8 @@ MonoBehaviour:
     y: 567
     width: 1481
     height: 390
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -668,21 +668,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Futuristic_soldier/Mesh
+    - Assets/Free Game Music Collection/Sci-Fi Music
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Futuristic_soldier/Mesh
+  - Assets/Free Game Music Collection/Sci-Fi Music
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\wjays\OneDrive\Documents\Dungeun-crawler\FPS3dGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 563d0000
-    m_LastClickedID: 15702
+    m_SelectedIDs: 3e3d0000
+    m_LastClickedID: 15678
     m_ExpandedIDs: 000000002a3d00002c3d00002e3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -736,9 +736,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8c3c0000
-    m_LastClickedInstanceID: 15500
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: c23c0000
+    m_LastClickedInstanceID: 15554
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b63d000042400000623d0000e63e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -811,8 +811,8 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 957
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -850,8 +850,8 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 15500
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 15554
+  m_LastVerticalScrollValue: 670
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
