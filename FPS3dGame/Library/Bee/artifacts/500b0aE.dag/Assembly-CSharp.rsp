@@ -341,16 +341,21 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Input/PlayerInput.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
+"Assets/Scripts/Enemy/Path.cs"
+"Assets/Scripts/Enemy/StateMachine.cs"
+"Assets/Scripts/Enemy/States/BaseState.cs"
+"Assets/Scripts/Enemy/States/PartolState.cs"
 "Assets/Scripts/EventOnlyInteractable.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Interactables/Keypad.cs"
 "Assets/Scripts/InteractionEvent.cs"
+"Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
-"Assets/Scripts/Player/PlayerUI.cs"
-"Assets/Scripts/UI/PlayerHealth.cs"
+"Assets/Scripts/UI/PlayerUI.cs"
 -langversion:9.0
 
 /deterministic
