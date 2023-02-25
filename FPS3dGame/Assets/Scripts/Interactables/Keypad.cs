@@ -11,5 +11,7 @@ public class Keypad : Interactable
     {
         Open = !Open;
         Door.GetComponent<Animator>().SetBool("IsOpen",Open);
+
+       
     }
 }
