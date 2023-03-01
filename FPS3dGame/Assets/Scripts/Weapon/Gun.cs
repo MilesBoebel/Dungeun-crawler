@@ -1,74 +1,38 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class Gun : MonoBehaviour
-{
-    [SerializeField] private GunData gunData;
-    [SerializeField] private Transform muzzle;
+public class Gun : MonoBehaviour 
+{   
+    private InputManager inputManager;
 
-    float timeSinceLastShot;
-    
+    public Camera fpsCam;
 
-    public void Start()
+    public float damage = 10f;
+    public float range = 100f;
+
+    void Start()
     {
-        PlayerShoot.shootInput += Shoot;
-        PlayerShoot.reloadInput += StartReload;
+        inputManager = GetComponent<InputManager>();
     }
 
-    public void StartReload()
+    void Update ()
     {
-        if (!gunData.reloading)
+        if (inputManager.onFoot.Shoot.triggered)
         {
-            if (!gunData.reloading)
-            {
-                StartCoroutine(Reload());
-            }
+            Shoot(); 
         }
     }
 
-    private IEnumerator Reload()
+    void Shoot ()
     {
-        gunData.reloading = true;
-
-        yield return new WaitForSeconds(gunData.reloadTime);
-
-        gunData.currentAmmo = gunData.magSize;
-
-        gunData.reloading = false;
-    }
-
-    private bool CanShoot() => !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
-
-    public void Shoot()
-    {
-        if (gunData.currentAmmo > 0)
+        RaycastHit hit;
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            if (CanShoot())
+            Target target = hit.transform.GetComponent<Target>();
+            if (target != null)
             {
-                if (Physics.Raycast(muzzle.position, transform.forward, out RaycastHit hitInfo, gunData.maxDistance))
-                {
-                    IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
-                    damageable?.TakeDamage(gunData.Objectdamage);
-                }
-
-                gunData.currentAmmo--;
-                timeSinceLastShot = 0;
-                OnGunShot();
+                target.TakeDamage(damage);
             }
         }
-    }
-
-    private void Update()
-    {
-        timeSinceLastShot += Time.deltaTime;
-
-        
-    }
-
-    private void OnGunShot() 
-    {
-        
     }
 }

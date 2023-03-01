@@ -352,17 +352,13 @@
 "Assets/Scripts/Interactables/CrateKeypad.cs"
 "Assets/Scripts/Interactables/Keypad.cs"
 "Assets/Scripts/InteractionEvent.cs"
-"Assets/Scripts/Interfaces/IDamageable.cs"
 "Assets/Scripts/Player/PlayerHealth.cs"
 "Assets/Scripts/Player/PlayerInteract.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMotor.cs"
-"Assets/Scripts/Player/PlayerShoot.cs"
-"Assets/Scripts/Sciptable Objects/GunData.cs"
-"Assets/Scripts/Target.cs"
 "Assets/Scripts/UI/PlayerUI.cs"
 "Assets/Scripts/Weapon/Gun.cs"
-"Assets/Scripts/Weapon/WeaponSway.cs"
+"Assets/Target.cs"
 -langversion:9.0
 
 /deterministic
