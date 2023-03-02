@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\Weapon\Gun.cs" />
      <Compile Include="Assets\Input\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerInteract.cs" />
+     <Compile Include="Assets\Scripts\Target.cs" />
      <Compile Include="Assets\Scripts\Enemy\States\PartolState.cs" />
      <Compile Include="Assets\Scripts\EventOnlyInteractable.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
@@ -54,7 +55,10 @@
      <Compile Include="Assets\Scripts\Enemy\States\BaseState.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\Interactables\CrateKeypad.cs" />
-     <Compile Include="Assets\Target.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
+     <Compile Include="Assets\Scripts\Weapon\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\Sciptable Objects\GunData.cs" />
+     <Compile Include="Assets\Scripts\WeaponSwitching.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
