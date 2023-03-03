@@ -60,7 +60,8 @@ public class Gun : MonoBehaviour {
         Debug.DrawRay(cam.position, cam.forward * gunData.maxDistance);
     }
 
-    private void OnGunShot() { 
+    private void OnGunShot() 
+    { 
         muzzleflash.Play();
-     }
+    }
 }
