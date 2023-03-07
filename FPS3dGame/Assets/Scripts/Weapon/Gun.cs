@@ -39,10 +39,12 @@ public class Gun : MonoBehaviour {
 
     private void Shoot() {
 
-        if (gunData.currentAmmo > 0) {
+        if (gunData.currentAmmo > 0) 
+        {
             if (CanShoot())
                 {
-                if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance)){
+                if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance))
+                {
                     IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
                     damageable?.TakeDamage(gunData.Objectdamage);
                 }
@@ -50,7 +52,7 @@ public class Gun : MonoBehaviour {
                 gunData.currentAmmo--;
                 timeSinceLastShot = 0;
                 OnGunShot();
-            }
+                }
         }
     }
 
