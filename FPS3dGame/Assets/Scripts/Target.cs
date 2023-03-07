@@ -6,6 +6,7 @@ public class Target : MonoBehaviour, IDamageable {
 
     public float Objecthealth;
 
+
     public void TakeDamage(float Objectdamage)
     {
         Objecthealth -= Objectdamage;

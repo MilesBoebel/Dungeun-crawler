@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: M1911
   m_EditorClassIdentifier: 
   name: M1911
-  Objectdamage: 0
+  Objectdamage: 15
   maxDistance: 100
-  currentAmmo: 30
-  magSize: 30
-  fireRate: 200
-  reloadTime: 1.5
+  currentAmmo: 1
+  magSize: 12
+  fireRate: 150
+  reloadTime: 2
   reloading: 0

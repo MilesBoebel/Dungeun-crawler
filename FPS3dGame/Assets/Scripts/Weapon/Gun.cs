@@ -12,10 +12,18 @@ public class Gun : MonoBehaviour {
     
     float timeSinceLastShot;
 
+    public Animator animator;
+
 
     private void Start() {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
+    }
+
+    void onEnable ()
+    {
+        gunData.reloading = false;
+        animator.SetBool("Reloading", false);
     }
 
     private void OnDisable() => gunData.reloading = false;
@@ -28,7 +36,11 @@ public class Gun : MonoBehaviour {
     private IEnumerator Reload() {
         gunData.reloading = true;
 
-        yield return new WaitForSeconds(gunData.reloadTime);
+        animator.SetBool("Reloading", true);
+
+        yield return new WaitForSeconds(gunData.reloadTime - .3f);
+        animator.SetBool("Reloading", false);
+        yield return new WaitForSeconds(.3f);
 
         gunData.currentAmmo = gunData.magSize;
 
@@ -55,9 +67,15 @@ public class Gun : MonoBehaviour {
     }
 
     private void Update() {
+
         timeSinceLastShot += Time.deltaTime;
 
         Debug.DrawRay(cam.position, cam.forward * gunData.maxDistance);
+
+        if(gunData.currentAmmo <= 0)
+        {
+            StartReload();
+        }
     }
 
     private void OnGunShot() { 

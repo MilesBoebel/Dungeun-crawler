@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
 {
     private float health;
     // Used for animating health bar
+    public GameObject Player;
+    public GameObject RespawnPoint;
     private float lerpTimer;
     public float maxHealth = 100f;
     //How fast the red will catch up with health
@@ -24,6 +26,12 @@ public class PlayerHealth : MonoBehaviour
     {
         health = Mathf.Clamp(health, 0, maxHealth);
         UpdateHealthUI();
+
+        if(health<=0)
+        {
+          Player.transform.position=RespawnPoint.transform.position;
+          health = 100;
+        }
         
     }
 
