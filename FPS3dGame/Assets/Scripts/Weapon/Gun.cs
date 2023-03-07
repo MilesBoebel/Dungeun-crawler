@@ -9,18 +9,21 @@ public class Gun : MonoBehaviour {
     [SerializeField] private GunData gunData;
     [SerializeField] private Transform cam;
     public ParticleSystem muzzleflash;
-    
+    public AudioSource shotSource;
+    public AudioClip shotSound;
     float timeSinceLastShot;
 
 
-    private void Start() {
+    private void Start() 
+    {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
     }
 
     private void OnDisable() => gunData.reloading = false;
 
-    public void StartReload() {
+    public void StartReload() 
+    {
         if (!gunData.reloading && this.gameObject.activeSelf)
             StartCoroutine(Reload());
     }
@@ -65,5 +68,6 @@ public class Gun : MonoBehaviour {
     private void OnGunShot() 
     { 
         muzzleflash.Play();
+        shotSource.PlayOneShot(shotSound);
     }
 }
