@@ -8,6 +8,10 @@ public class PlayerShoot : MonoBehaviour {
     public static Action shootInput;
     public static Action reloadInput;
     private InputManager inputManager;
+    
+    
+    
+
 
     void Start()
     {
@@ -16,8 +20,11 @@ public class PlayerShoot : MonoBehaviour {
 
     private void Update()
     {
+
         if (inputManager.onFoot.Shoot.triggered)
             shootInput?.Invoke();
+            
+
 
         if (inputManager.onFoot.Reload.triggered)
             reloadInput?.Invoke();

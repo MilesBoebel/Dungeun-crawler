@@ -12,12 +12,13 @@ public class Gun : MonoBehaviour {
     public AudioSource shotSource;
     public AudioClip shotSound;
     float timeSinceLastShot;
-
+    private object gun;
 
     private void Start() 
     {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
+        gunData.currentAmmo = gunData.magSize;
     }
 
     private void OnDisable() => gunData.reloading = false;
@@ -44,7 +45,7 @@ public class Gun : MonoBehaviour {
 
         if (gunData.currentAmmo > 0) 
         {
-            if (CanShoot())
+            if(CanShoot())
                 {
                 if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance))
                 {

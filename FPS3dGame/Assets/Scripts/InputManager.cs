@@ -10,6 +10,7 @@ public class InputManager : MonoBehaviour
     public PlayerInput.OnFootActions onFoot;
     private PlayerMotor motor;
     private PlayerLook look;
+    Coroutine fireCourutine;
 
     void Awake()
     {
@@ -46,5 +47,6 @@ public class InputManager : MonoBehaviour
     {
       onFoot.Disable();
     }
+    
 
 }
