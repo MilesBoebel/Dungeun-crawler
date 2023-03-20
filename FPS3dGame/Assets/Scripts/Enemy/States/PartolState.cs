@@ -1,34 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
 
-public class PartolState : BaseState
-{
-    public int waypointIndex;
+// public class PartolState : BaseState
+// {
+//     public int waypointIndex;
 
-    public override void Enter()
-    {
+//     public override void Enter()
+//     {
         
-    }
-    public override void Perform()
-    {
-        PatrolCycle();
-    }
-    public override void Exit()
-    {
+//     }
+//     public override void Perform()
+//     {
+//         PatrolCycle();
+//     }
+//     public override void Exit()
+//     {
         
-    }
+//     }
 
-    public void PatrolCycle()
-    {
-        //Implement our patrol logic
-        if(enemy.Agent.remainingDistance < 0.2f)
-        {
-            if(waypointIndex < enemy.path.waypoints.Count - 1)
-                waypointIndex++;
-            else
-                waypointIndex = 0;
-            enemy.Agent.SetDestination(enemy.path.waypoints[waypointIndex].position);
-        }
-    }
-}
+//     public void PatrolCycle()
+//     {
+//         //Implement our patrol logic
+//         if(aicontroller.Agent.remainingDistance < 0.2f)
+//         {
+//             if(waypointIndex < aicontroller.path.waypoints.Count - 1)
+//                 waypointIndex++;
+//             else
+//                 waypointIndex = 0;
+//             aicontroller.Agent.SetDestination(aicontroller.path.waypoints[waypointIndex].position);
+//         }
+//     }
+// }
