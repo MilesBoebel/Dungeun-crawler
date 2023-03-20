@@ -15,8 +15,8 @@ MonoBehaviour:
   name: Assault Rifle
   Objectdamage: 20
   maxDistance: 1000
-  currentAmmo: 30
+  currentAmmo: 20
   magSize: 30
   fireRate: 350
-  reloadTime: 1.5
+  reloadTime: 2.5
   reloading: 0

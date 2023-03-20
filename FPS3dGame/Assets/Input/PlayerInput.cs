@@ -107,24 +107,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""SwitchWeapon"",
-                    ""type"": ""Button"",
-                    ""id"": ""d6dab65d-5760-4098-8f0e-d22d5235b7d9"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""flashlight"",
-                    ""type"": ""Button"",
-                    ""id"": ""80a872bb-7e4d-4b47-bf8d-268eacdb0a75"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -340,7 +322,7 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""451ddd6e-a528-44a9-bb80-de7898189d07"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""path"": ""<Gamepad>/buttonWest"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -400,28 +382,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Toggle"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""fd395f9a-df9c-4c98-bb83-761ee19ac6f7"",
-                    ""path"": ""<Keyboard>/i"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""SwitchWeapon"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""3e307002-fc27-4fd2-8d85-65b89e9c0e16"",
-                    ""path"": ""<Keyboard>/z"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""flashlight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -957,8 +917,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         m_OnFoot_Shoot = m_OnFoot.FindAction("Shoot", throwIfNotFound: true);
         m_OnFoot_Reload = m_OnFoot.FindAction("Reload", throwIfNotFound: true);
         m_OnFoot_Toggle = m_OnFoot.FindAction("Toggle", throwIfNotFound: true);
-        m_OnFoot_SwitchWeapon = m_OnFoot.FindAction("SwitchWeapon", throwIfNotFound: true);
-        m_OnFoot_flashlight = m_OnFoot.FindAction("flashlight", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1039,8 +997,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
     private readonly InputAction m_OnFoot_Shoot;
     private readonly InputAction m_OnFoot_Reload;
     private readonly InputAction m_OnFoot_Toggle;
-    private readonly InputAction m_OnFoot_SwitchWeapon;
-    private readonly InputAction m_OnFoot_flashlight;
     public struct OnFootActions
     {
         private @PlayerInput m_Wrapper;
@@ -1054,8 +1010,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         public InputAction @Shoot => m_Wrapper.m_OnFoot_Shoot;
         public InputAction @Reload => m_Wrapper.m_OnFoot_Reload;
         public InputAction @Toggle => m_Wrapper.m_OnFoot_Toggle;
-        public InputAction @SwitchWeapon => m_Wrapper.m_OnFoot_SwitchWeapon;
-        public InputAction @flashlight => m_Wrapper.m_OnFoot_flashlight;
         public InputActionMap Get() { return m_Wrapper.m_OnFoot; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1092,12 +1046,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Toggle.started -= m_Wrapper.m_OnFootActionsCallbackInterface.OnToggle;
                 @Toggle.performed -= m_Wrapper.m_OnFootActionsCallbackInterface.OnToggle;
                 @Toggle.canceled -= m_Wrapper.m_OnFootActionsCallbackInterface.OnToggle;
-                @SwitchWeapon.started -= m_Wrapper.m_OnFootActionsCallbackInterface.OnSwitchWeapon;
-                @SwitchWeapon.performed -= m_Wrapper.m_OnFootActionsCallbackInterface.OnSwitchWeapon;
-                @SwitchWeapon.canceled -= m_Wrapper.m_OnFootActionsCallbackInterface.OnSwitchWeapon;
-                @flashlight.started -= m_Wrapper.m_OnFootActionsCallbackInterface.OnFlashlight;
-                @flashlight.performed -= m_Wrapper.m_OnFootActionsCallbackInterface.OnFlashlight;
-                @flashlight.canceled -= m_Wrapper.m_OnFootActionsCallbackInterface.OnFlashlight;
             }
             m_Wrapper.m_OnFootActionsCallbackInterface = instance;
             if (instance != null)
@@ -1129,12 +1077,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
                 @Toggle.started += instance.OnToggle;
                 @Toggle.performed += instance.OnToggle;
                 @Toggle.canceled += instance.OnToggle;
-                @SwitchWeapon.started += instance.OnSwitchWeapon;
-                @SwitchWeapon.performed += instance.OnSwitchWeapon;
-                @SwitchWeapon.canceled += instance.OnSwitchWeapon;
-                @flashlight.started += instance.OnFlashlight;
-                @flashlight.performed += instance.OnFlashlight;
-                @flashlight.canceled += instance.OnFlashlight;
             }
         }
     }
@@ -1255,8 +1197,6 @@ public partial class @PlayerInput : IInputActionCollection2, IDisposable
         void OnShoot(InputAction.CallbackContext context);
         void OnReload(InputAction.CallbackContext context);
         void OnToggle(InputAction.CallbackContext context);
-        void OnSwitchWeapon(InputAction.CallbackContext context);
-        void OnFlashlight(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

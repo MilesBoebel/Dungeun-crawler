@@ -156,7 +156,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.FPS3dGame
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -705,7 +706,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 1
+  activeInputHandler: 2
   cloudProjectId: c0ae7523-28e1-403d-9200-03dd926ec4fa
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

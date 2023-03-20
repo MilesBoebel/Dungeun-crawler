@@ -9,22 +9,29 @@ public class Gun : MonoBehaviour {
     [SerializeField] private GunData gunData;
     [SerializeField] private Transform cam;
     public ParticleSystem muzzleflash;
-    public AudioSource shotSource;
-    public AudioClip shotSound;
+    
     float timeSinceLastShot;
-    private object gun;
 
-    private void Start() 
-    {
+    public Animator animator;
+    public AudioSource audioSource;
+
+
+
+    private void Start() {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
         gunData.currentAmmo = gunData.magSize;
     }
 
+    void onEnable ()
+    {
+        gunData.reloading = false;
+        animator.SetBool("Reloading", false);
+    }
+
     private void OnDisable() => gunData.reloading = false;
 
-    public void StartReload() 
-    {
+    public void StartReload() {
         if (!gunData.reloading && this.gameObject.activeSelf)
             StartCoroutine(Reload());
     }
@@ -32,7 +39,11 @@ public class Gun : MonoBehaviour {
     private IEnumerator Reload() {
         gunData.reloading = true;
 
-        yield return new WaitForSeconds(gunData.reloadTime);
+        animator.SetBool("Reloading", true);
+
+        yield return new WaitForSeconds(gunData.reloadTime - .3f);
+        animator.SetBool("Reloading", false);
+        yield return new WaitForSeconds(.3f);
 
         gunData.currentAmmo = gunData.magSize;
 
@@ -43,32 +54,35 @@ public class Gun : MonoBehaviour {
 
     private void Shoot() {
 
-        if (gunData.currentAmmo > 0) 
-        {
-            if(CanShoot())
+        if (gunData.currentAmmo > 0) {
+            if (CanShoot())
                 {
-                if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance))
-                {
+                if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance)){
                     IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
                     damageable?.TakeDamage(gunData.Objectdamage);
                 }
 
                 gunData.currentAmmo--;
                 timeSinceLastShot = 0;
+                audioSource.Play();
                 OnGunShot();
-                }
+            }
         }
     }
 
     private void Update() {
+
         timeSinceLastShot += Time.deltaTime;
 
         Debug.DrawRay(cam.position, cam.forward * gunData.maxDistance);
+
+        if(gunData.currentAmmo <= 0)
+        {
+            StartReload();
+        }
     }
 
-    private void OnGunShot() 
-    { 
+    private void OnGunShot() { 
         muzzleflash.Play();
-        shotSource.PlayOneShot(shotSound);
-    }
+     }
 }

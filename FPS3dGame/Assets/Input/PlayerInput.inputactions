@@ -85,24 +85,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "SwitchWeapon",
-                    "type": "Button",
-                    "id": "d6dab65d-5760-4098-8f0e-d22d5235b7d9",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "flashlight",
-                    "type": "Button",
-                    "id": "80a872bb-7e4d-4b47-bf8d-268eacdb0a75",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -318,7 +300,7 @@
                 {
                     "name": "",
                     "id": "451ddd6e-a528-44a9-bb80-de7898189d07",
-                    "path": "<Gamepad>/rightShoulder",
+                    "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -378,28 +360,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Toggle",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "fd395f9a-df9c-4c98-bb83-761ee19ac6f7",
-                    "path": "<Keyboard>/i",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SwitchWeapon",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3e307002-fc27-4fd2-8d85-65b89e9c0e16",
-                    "path": "<Keyboard>/z",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "flashlight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
