@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerShoot : MonoBehaviour {
+public class PlayerShoot : MonoBehaviour 
+{
 
     public static Action shootInput;
     public static Action reloadInput;
     private InputManager inputManager;
+       
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class PlayerShoot : MonoBehaviour {
     {
         if (inputManager.onFoot.Shoot.triggered)
             shootInput?.Invoke();
+
 
         if (inputManager.onFoot.Reload.triggered)
             reloadInput?.Invoke();

@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour {
+
+public class Gun : MonoBehaviour 
+{
 
     [Header("References")]
     [SerializeField] private GunData gunData;
@@ -17,7 +19,8 @@ public class Gun : MonoBehaviour {
 
 
 
-    private void Start() {
+    private void Start() 
+    {
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
         gunData.currentAmmo = gunData.magSize;
@@ -31,12 +34,14 @@ public class Gun : MonoBehaviour {
 
     private void OnDisable() => gunData.reloading = false;
 
-    public void StartReload() {
+    public void StartReload() 
+    {
         if (!gunData.reloading && this.gameObject.activeSelf)
             StartCoroutine(Reload());
     }
 
-    private IEnumerator Reload() {
+    private IEnumerator Reload() 
+    {
         gunData.reloading = true;
 
         animator.SetBool("Reloading", true);
@@ -52,9 +57,11 @@ public class Gun : MonoBehaviour {
 
     private bool CanShoot() => !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
 
-    private void Shoot() {
+    private void Shoot() 
+    {
 
-        if (gunData.currentAmmo > 0) {
+        if (gunData.currentAmmo > 0) 
+        {
             if (CanShoot())
                 {
                 if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance)){
@@ -70,7 +77,8 @@ public class Gun : MonoBehaviour {
         }
     }
 
-    private void Update() {
+    private void Update() 
+    {
 
         timeSinceLastShot += Time.deltaTime;
 
@@ -82,7 +90,8 @@ public class Gun : MonoBehaviour {
         }
     }
 
-    private void OnGunShot() { 
+    private void OnGunShot() 
+    { 
         muzzleflash.Play();
-     }
+    }
 }
