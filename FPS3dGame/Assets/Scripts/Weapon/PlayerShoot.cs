@@ -17,7 +17,9 @@ public class PlayerShoot : MonoBehaviour {
     private void Update()
     {
         if (inputManager.onFoot.Shoot.triggered)
+            //if (Input.GetMouseButton(0))
             shootInput?.Invoke();
+
 
         if (inputManager.onFoot.Reload.triggered)
             reloadInput?.Invoke();

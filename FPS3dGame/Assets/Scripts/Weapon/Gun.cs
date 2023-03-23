@@ -3,82 +3,85 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour {
+namespace Con.Kawaiisun.SimpHostile
+{
+    public class Gun : MonoBehaviour {
 
-    [Header("References")]
-    [SerializeField] private GunData gunData;
-    [SerializeField] private Transform cam;
-    public ParticleSystem muzzleflash;
-    
-    float timeSinceLastShot;
+        [Header("References")]
+        [SerializeField] private GunData gunData;
+        [SerializeField] private Transform cam;
+        public ParticleSystem muzzleflash;
+        
+        float timeSinceLastShot;
 
-    public Animator animator;
+        public Animator animator;
 
 
-    private void Start() {
-        PlayerShoot.shootInput += Shoot;
-        PlayerShoot.reloadInput += StartReload;
-    }
+        private void Start() {
+            PlayerShoot.shootInput += Shoot;
+            PlayerShoot.reloadInput += StartReload;
+        }
 
-    void onEnable ()
-    {
-        gunData.reloading = false;
-        animator.SetBool("Reloading", false);
-    }
+        void onEnable ()
+        {
+            gunData.reloading = false;
+            animator.SetBool("Reloading", false);
+        }
 
-    private void OnDisable() => gunData.reloading = false;
+        private void OnDisable() => gunData.reloading = false;
 
-    public void StartReload() {
-        if (!gunData.reloading && this.gameObject.activeSelf)
-            StartCoroutine(Reload());
-    }
+        public void StartReload() {
+            if (!gunData.reloading && this.gameObject.activeSelf)
+                StartCoroutine(Reload());
+        }
 
-    private IEnumerator Reload() {
-        gunData.reloading = true;
+        private IEnumerator Reload() {
+            gunData.reloading = true;
 
-        animator.SetBool("Reloading", true);
+            animator.SetBool("Reloading", true);
 
-        yield return new WaitForSeconds(gunData.reloadTime - .3f);
-        animator.SetBool("Reloading", false);
-        yield return new WaitForSeconds(.3f);
+            yield return new WaitForSeconds(gunData.reloadTime - .3f);
+            animator.SetBool("Reloading", false);
+            yield return new WaitForSeconds(.3f);
 
-        gunData.currentAmmo = gunData.magSize;
+            gunData.currentAmmo = gunData.magSize;
 
-        gunData.reloading = false;
-    }
+            gunData.reloading = false;
+        }
 
-    private bool CanShoot() => !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
+        private bool CanShoot() => !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
 
-    private void Shoot() {
+        private void Shoot() {
 
-        if (gunData.currentAmmo > 0) {
-            if (CanShoot())
-                {
-                if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance)){
-                    IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
-                    damageable?.TakeDamage(gunData.Objectdamage);
+            if (gunData.currentAmmo > 0) {
+                if (CanShoot())
+                    {
+                    if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hitInfo, gunData.maxDistance)){
+                        IDamageable damageable = hitInfo.transform.GetComponent<IDamageable>();
+                        damageable?.TakeDamage(gunData.Objectdamage);
+                    }
+
+                    gunData.currentAmmo--;
+                    timeSinceLastShot = 0;
+                    OnGunShot();
                 }
-
-                gunData.currentAmmo--;
-                timeSinceLastShot = 0;
-                OnGunShot();
             }
         }
-    }
 
-    private void Update() {
+        private void Update() {
 
-        timeSinceLastShot += Time.deltaTime;
+            timeSinceLastShot += Time.deltaTime;
 
-        Debug.DrawRay(cam.position, cam.forward * gunData.maxDistance);
+            Debug.DrawRay(cam.position, cam.forward * gunData.maxDistance);
 
-        if(gunData.currentAmmo <= 0)
-        {
-            StartReload();
+            if(gunData.currentAmmo <= 0)
+            {
+                StartReload();
+            }
+        }
+
+        private void OnGunShot() { 
+            muzzleflash.Play();
         }
     }
-
-    private void OnGunShot() { 
-        muzzleflash.Play();
-     }
 }
