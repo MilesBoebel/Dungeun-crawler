@@ -344,6 +344,7 @@
 "Assets/Input/PlayerInput.cs"
 "Assets/MainMenu.cs"
 "Assets/QuitScript.cs"
+"Assets/Scripts/Enemy/AIController.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/Path.cs"
 "Assets/Scripts/Enemy/StateMachine.cs"

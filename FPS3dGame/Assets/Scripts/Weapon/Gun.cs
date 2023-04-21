@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public class Gun : MonoBehaviour 
@@ -11,19 +12,23 @@ public class Gun : MonoBehaviour
     [SerializeField] private GunData gunData;
     [SerializeField] private Transform cam;
     public ParticleSystem muzzleflash;
+    private string slash;
+    
     
     float timeSinceLastShot;
 
     public Animator animator;
     public AudioSource audioSource;
-
-
+    public TextMeshProUGUI ammoDisplay;
+    
 
     private void Start() 
     {
+        slash = "/";
         PlayerShoot.shootInput += Shoot;
         PlayerShoot.reloadInput += StartReload;
         gunData.currentAmmo = gunData.magSize;
+        ammoDisplay.text = gunData.currentAmmo.ToString()+ slash + gunData.magSize;
     }
 
     void onEnable ()
@@ -51,6 +56,7 @@ public class Gun : MonoBehaviour
         yield return new WaitForSeconds(.3f);
 
         gunData.currentAmmo = gunData.magSize;
+        ammoDisplay.text = gunData.currentAmmo.ToString()+ slash + gunData.magSize;
 
         gunData.reloading = false;
     }
@@ -73,6 +79,7 @@ public class Gun : MonoBehaviour
                 timeSinceLastShot = 0;
                 audioSource.Play();
                 OnGunShot();
+                ammoDisplay.text = gunData.currentAmmo.ToString()+ slash + gunData.magSize;
             }
         }
     }
