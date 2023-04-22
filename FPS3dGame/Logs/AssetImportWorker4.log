@@ -1,0 +1,231 @@
+Unity Editor version:    2021.3.21f1 (1b156197d683)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62774
+Successfully changed project path to: /Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+/Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704634689728] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 4229594839 [EditorId] 4229594839 [Version] 1048832 [Id] OSXEditor(0,Elizabeths-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704634689728] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 4229594839 [EditorId] 4229594839 [Version] 1048832 [Id] OSXEditor(0,Elizabeths-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 129.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56302
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002608 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 120.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1562ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 121.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.324 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3327ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (2630ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (669ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (190ms)
+			SetupLoadedEditorAssemblies (1346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (963ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.34 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (20.5 KB). Loaded Objects now: 2599.
+Memory consumption went from 104.7 MB to 104.7 MB.
+Total: 8.856110 ms (FindLiveObjects: 0.312573 ms CreateObjectMapping: 0.207082 ms MarkObjects: 8.242847 ms  DeleteObjects: 0.091726 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 631358.007310 seconds.
+  path: Assets/External/Music/Action Music
+  artifactKey: Guid(8beefa143a081cc4e834ff8ef5b9fb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music using Guid(8beefa143a081cc4e834ff8ef5b9fb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eb69a0f01d72ff924d1e89cb97a3a4') in 0.012382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101315 seconds.
+  path: Assets/External/Music/Action Music/Free Action Track 1 (Loop).wav
+  artifactKey: Guid(6ef0f2320ce6c6d45a5940dd38e5b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music/Free Action Track 1 (Loop).wav using Guid(6ef0f2320ce6c6d45a5940dd38e5b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d4d52b520fc155a25b13a5fbd5e165') in 0.871275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.814276 seconds.
+  path: Assets/External/Music/Adventure Music
+  artifactKey: Guid(057d6a8c27bcfdf40bec15d213535227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Adventure Music using Guid(057d6a8c27bcfdf40bec15d213535227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac8483b59f30d200016d283981dbc64') in 0.002630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096226 seconds.
+  path: Assets/External/Music/Adventure Music/Free Adventure Track 1 (Loop).wav
+  artifactKey: Guid(50410ad3e8416d947a9b3bc18aedc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Adventure Music/Free Adventure Track 1 (Loop).wav using Guid(50410ad3e8416d947a9b3bc18aedc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff110f2113c83af3bbfc32554380c242') in 0.037791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/External/Music/Adventure Music/Free Adventure Track 4.wav
+  artifactKey: Guid(c548e727ec13059419e9ed70320f508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Adventure Music/Free Adventure Track 4.wav using Guid(c548e727ec13059419e9ed70320f508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc3c586851dd97a8de600ad357d411c') in 0.049691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.360567 seconds.
+  path: Assets/External/Music/Sci-Fi Music
+  artifactKey: Guid(f00625700de18cc4d83d3b3b6231985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Sci-Fi Music using Guid(f00625700de18cc4d83d3b3b6231985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d3efbb95549db913891acf187b833c') in 0.002499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098885 seconds.
+  path: Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 1 (Loop).wav
+  artifactKey: Guid(9460a26f83a88474eba3e8ace366521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 1 (Loop).wav using Guid(9460a26f83a88474eba3e8ace366521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366e39f1c88db8263c09fdda232570ff') in 0.067442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 5.wav
+  artifactKey: Guid(ddaab82160f6fff4291b2e31ade6f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 5.wav using Guid(ddaab82160f6fff4291b2e31ade6f84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bde24b942bb9a9de9ffae5829dc7cf') in 0.014671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.192926 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Gun_MAT.mat
+  artifactKey: Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Gun_MAT.mat using Guid(28f0b13c7e9707746b5e0b3336181560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1b8aa8e05f5eedddd5b8c801b48820') in 4.436274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Models/RGD-5.fbx
+  artifactKey: Guid(cecca25c94780ca428d51ab9f5894270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Models/RGD-5.fbx using Guid(cecca25c94780ca428d51ab9f5894270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3d82f93078b66cdb6577c1875b6612') in 0.623987 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

@@ -1,0 +1,381 @@
+Unity Editor version:    2021.3.21f1 (1b156197d683)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62774
+Successfully changed project path to: /Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+/Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704634689728] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 3632596595 [EditorId] 3632596595 [Version] 1048832 [Id] OSXEditor(0,Elizabeths-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704634689728] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 3632596595 [EditorId] 3632596595 [Version] 1048832 [Id] OSXEditor(0,Elizabeths-MacBook-Air-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 138.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/milesb/Documents/GitHub/Dungeun-crawler/FPS3dGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003049 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2284ms)
+		BeginReloadAssembly (404ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1468ms)
+			LoadAssemblies (400ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 92.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3009ms)
+		BeginReloadAssembly (374ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2311ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (670ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (1160ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (847ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (20.5 KB). Loaded Objects now: 2599.
+Memory consumption went from 104.4 MB to 104.4 MB.
+Total: 7.734795 ms (FindLiveObjects: 0.313799 ms CreateObjectMapping: 0.260603 ms MarkObjects: 7.083079 ms  DeleteObjects: 0.074631 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2995ms)
+		BeginReloadAssembly (394ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (2274ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (677ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (1080ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (846ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (21.9 KB). Loaded Objects now: 2602.
+Memory consumption went from 102.9 MB to 102.9 MB.
+Total: 6.181330 ms (FindLiveObjects: 0.254868 ms CreateObjectMapping: 0.181001 ms MarkObjects: 5.693524 ms  DeleteObjects: 0.049967 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 631286.151121 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(2a02e78ad44be9849866395be0207016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(2a02e78ad44be9849866395be0207016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74212f8bca3b38109ec96cc73108c5f1') in 0.011178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.177721 seconds.
+  path: Assets/External
+  artifactKey: Guid(33a2218160e75cf41a220852a2cfcede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External using Guid(33a2218160e75cf41a220852a2cfcede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917284b3965c3ced98f38bf79c7dee76') in 0.002830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.147142 seconds.
+  path: Assets/External/Low Poly Weapons VOL
+  artifactKey: Guid(82bc19b81cd24f14999ef30b2ef1d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL using Guid(82bc19b81cd24f14999ef30b2ef1d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ab5422ea5a56165e245c0969323548') in 0.002477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.788936 seconds.
+  path: Assets/External/UI
+  artifactKey: Guid(becbdfd931a94ba42823481a09da463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/UI using Guid(becbdfd931a94ba42823481a09da463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152e9db53583839c5b7faa08d4e564b5') in 0.002398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.749459 seconds.
+  path: Assets/External/MuzzleFlash
+  artifactKey: Guid(d297280b6d374ba4289eb0cbc14aff0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/MuzzleFlash using Guid(d297280b6d374ba4289eb0cbc14aff0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c99703905a798b5ee0199e5732e5032') in 0.002462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.493830 seconds.
+  path: Assets/External/MuzzleFlash/BuiltIn
+  artifactKey: Guid(7d0ce335f44819b4ca3f4f739f71ac64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/MuzzleFlash/BuiltIn using Guid(7d0ce335f44819b4ca3f4f739f71ac64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4248217e3371b398a9885e29fc14036') in 0.002631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161119 seconds.
+  path: Assets/External/MuzzleFlash/BuiltIn/MuzzleTex.jpg
+  artifactKey: Guid(874f6b9797fa3584db56ca7b98d654ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/MuzzleFlash/BuiltIn/MuzzleTex.jpg using Guid(874f6b9797fa3584db56ca7b98d654ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c2ac2e5d27b0f6f936058b29e89b43') in 3.590532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607507 seconds.
+  path: Assets/External/Music
+  artifactKey: Guid(bd5edf6aef2010d408d41e095a85aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music using Guid(bd5edf6aef2010d408d41e095a85aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6725d2975b6e0c7df13c69dace22eae9') in 0.002247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.561069 seconds.
+  path: Assets/External/Music/Apocalyptic Music
+  artifactKey: Guid(25511c66b33e055408c6e909916bf346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music using Guid(25511c66b33e055408c6e909916bf346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd71ebdb329a55b4484035595fc3e37f') in 0.002653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089469 seconds.
+  path: Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 1 (Loop).wav
+  artifactKey: Guid(8e174970294b267409eff32054b550cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 1 (Loop).wav using Guid(8e174970294b267409eff32054b550cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1394566629c19f763a84b2ccfdad79') in 4.886574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 2.wav
+  artifactKey: Guid(c929f63e26e8ddf4598c74699700b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 2.wav using Guid(c929f63e26e8ddf4598c74699700b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f333b62478a8700d6d382d25580313f') in 0.028187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 4.wav
+  artifactKey: Guid(a60124bcd341d3641842aec46fe2821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 4.wav using Guid(a60124bcd341d3641842aec46fe2821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5710a91d236f17423469248bc2787400') in 0.019765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 4 (Loop).wav
+  artifactKey: Guid(4fe1e130dcac2ca45b60fe5f42fd2d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 4 (Loop).wav using Guid(4fe1e130dcac2ca45b60fe5f42fd2d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c8b87500f665826f29412e68b3bd42') in 0.020332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 5 (Loop).wav
+  artifactKey: Guid(af9ea40d122f11146b197c2bb6bb2ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Apocalyptic Music/Free Apocalyptic Track 5 (Loop).wav using Guid(af9ea40d122f11146b197c2bb6bb2ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98926198a712c9dd93576567c92770a8') in 0.021584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.483826 seconds.
+  path: Assets/External/Music/Action Music/Free Action Track 2 (Loop).wav
+  artifactKey: Guid(b5bc10f4d9bd65243b56e20218638cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music/Free Action Track 2 (Loop).wav using Guid(b5bc10f4d9bd65243b56e20218638cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e4c15fd1660c2a02acf24433a1edd') in 0.041005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/External/Music/Action Music/Free Action Track 4.wav
+  artifactKey: Guid(24ac8c9859350a643b4ba1e597cbf895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music/Free Action Track 4.wav using Guid(24ac8c9859350a643b4ba1e597cbf895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d70884544f53cf33acd393db5add9bb') in 0.044881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/External/Music/Action Music/Free Action Track 5 (Loop).wav
+  artifactKey: Guid(d721df7dc685e7c46a01fd7f763d713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music/Free Action Track 5 (Loop).wav using Guid(d721df7dc685e7c46a01fd7f763d713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423b00631f94690bb3491a60cdfda966') in 0.047006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/External/Music/Action Music/Free Action Track 5.wav
+  artifactKey: Guid(45fd72f430f07b945aba75e4a1552399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Action Music/Free Action Track 5.wav using Guid(45fd72f430f07b945aba75e4a1552399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642b488bf9a2c3d7f6f7d691c3c2473d') in 0.028719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.610262 seconds.
+  path: Assets/External/Music/Adventure Music/Free Adventure Track 2 (Loop).wav
+  artifactKey: Guid(92c32bab51f7a704688f209cd556ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Adventure Music/Free Adventure Track 2 (Loop).wav using Guid(92c32bab51f7a704688f209cd556ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9267746a9904672ce35c2132a524beab') in 0.029028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/External/Music/Adventure Music/Free Adventure Track 4 (Loop).wav
+  artifactKey: Guid(15da5483de7d548488a1e6e4978599ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Adventure Music/Free Adventure Track 4 (Loop).wav using Guid(15da5483de7d548488a1e6e4978599ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da289deb86ebf7cf759b70c77f00c2') in 0.093376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.436021 seconds.
+  path: Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 2 (Loop).wav
+  artifactKey: Guid(f049dad4486bc4447850a56a12cb3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 2 (Loop).wav using Guid(f049dad4486bc4447850a56a12cb3aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f606252415bb81dc1a0f2cc68454668') in 0.025601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 5 (Loop).wav
+  artifactKey: Guid(a63a6287134b71f4e8b9295dd0cb8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Music/Sci-Fi Music/Free Sci-Fi Track 5 (Loop).wav using Guid(a63a6287134b71f4e8b9295dd0cb8cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe81cc6062fe59c8632adc24cccfc46b') in 0.047282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.201191 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Models
+  artifactKey: Guid(c2ea3f448776c9645ba9ffd49106fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Models using Guid(c2ea3f448776c9645ba9ffd49106fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ca588e0cd0625ffa8fcbb362547ea') in 0.002647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.129834 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Models/AK74.fbx
+  artifactKey: Guid(6f966b9a7c817ed49973b4a8762cbbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Models/AK74.fbx using Guid(6f966b9a7c817ed49973b4a8762cbbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a16f05e691e95f9d9b5eb60d999d54a') in 2.380862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Models/M249.fbx
+  artifactKey: Guid(01890195b95a26f4fa4aa4f8f5a0cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Models/M249.fbx using Guid(01890195b95a26f4fa4aa4f8f5a0cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44d705d05956059491cd8adca99e944') in 0.461531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/External/Low Poly Weapons VOL/Models/SR_Scope_00.fbx
+  artifactKey: Guid(2e652e63fbd52af41856733acbfe5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Weapons VOL/Models/SR_Scope_00.fbx using Guid(2e652e63fbd52af41856733acbfe5c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2103ff241b715b408ceafdc0ba8e079c') in 0.128788 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
